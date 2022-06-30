@@ -1,10 +1,8 @@
-
-import ShowData from './ShowPracticalExperience';
-import VisButton from "./VisibleButton";
 import React from 'react';
+import ShowData from "./ShowPracticalExperience";
+import VisButton from "./VisButton";
 
-
-class PracticalExperience extends react.Component {
+class PraExp extends react.Component {
     constructor(props) {
         super(props);
         this.state = this.props.PraExp;
@@ -26,19 +24,19 @@ class PracticalExperience extends react.Component {
     }
 
     updateCompany = (e) => {
-        // console.log(e.target.value, "  ", this.state.school);
+    
         this.setState({ company: e.target.value });
     }
     updateTitle = (e) => {
-        // console.log(e.target.value, "  ", this.state.school);
+       
         this.setState({ title: e.target.value });
     }
     updateTasks = (e) => {
-        // console.log(e.target.value, "  ", this.state.school);
+        
         this.setState({ tasks: e.target.value });
     }
     updateExp = (e) => {
-        // console.log(e.target.value, "  ", this.state.school);
+        
         this.setState({ exp: e.target.value });
     }
 
