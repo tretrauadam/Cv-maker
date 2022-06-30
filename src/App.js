@@ -28,7 +28,7 @@ class App extends React.Component {
       buttons: "1",
       btnVal: "Preview"
       }
-      this.getEdu = this.getEduc.bind(this);
+      this.getEdu = this.getEdu.bind(this);
       this.getPra = this.getPra.bind(this);
     
     }
