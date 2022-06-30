@@ -7,11 +7,11 @@ class EducationExperience extends React.Component {
     constructor(props) {
         super(props);
         this.state = this.props.EducationExperience;
-        this.deleteEducation = this.deleteEducation.bind(this);
-        this.editEduction = this.editEduction.bind(this);
+        this.delEdu = this.delEdu.bind(this);
+        this.setEdit = this.setEdit.bind(this);
     }
 
-    deleteEducation = (index) => {
+    delEdu = (index) => {
         this.setState((prevState) => {
             let prevData = prevState.data.map(e => e);
             prevData.splice(index, 1);

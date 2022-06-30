@@ -2,7 +2,7 @@ import React from 'react';
 import ShowData from "./ShowPracticalExperience";
 import VisButton from "./VisButton";
 
-class PraExp extends react.Component {
+class PraExp extends React.Component {
     constructor(props) {
         super(props);
         this.state = this.props.PraExp;
